@@ -1,0 +1,53 @@
+.text-voilet { /*bike*/
+    color : darkred;
+
+}
+.home-area {
+    height: 800px;
+    z-index: 1;
+}
+.carousel-item img{
+    height: 700px;
+}
+.home-thumb { /*icon pets*/
+    max-width: 300px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+.bg-overlay, .overlay-dark {/*img carousel*/
+    position: relative;
+    z-index: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.fw-3 {
+    font-weight: 300;
+}
+.home-area .shape-bottom {
+    z-index: -1;
+}
+.shape-bottom { /*parte superior del carrusel*/
+    position: absolute;
+    top: auto;
+    bottom: -7px;
+    left: 0;
+    right: 0;
+}
+.button-group {
+    margin-top: 30px;
+}
+.store-buttons img {
+    max-width: 190px;
+}
+
+.store-buttons a {
+    text-align: left;
+}
+.button-group a {
+    margin-right: 10px;
+}
