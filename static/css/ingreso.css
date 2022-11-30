@@ -309,7 +309,7 @@ input[type="email"]:placeholder {
 }
 
 .underlineHover:hover {
-  color: #0d0d0d;
+  color: rgb(255, 0, 0);
 }
 
 .underlineHover:hover:after {
